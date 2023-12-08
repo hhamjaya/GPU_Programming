@@ -1,0 +1,24 @@
+1. Add your ssh user
+ssh {username}@dione.abo.fi
++
+password
+
+When Dione opens, load the modules
+module load cuda
+module load GCC
+
+
+You can test using the hello world example
+//Hello World
+//First compile the file
+nvcc -arch=sm_70 hello_world.cu -o hello_world -lm
+//Then run it
+srun -p gpu --mem=1G -t 10:00 hello_world
+
+
+
+Or the template of the project
+//Template
+nvcc -O3 -arch=sm_70 template.cu -o galaxy -lm
+srun -p gpu -n 1 -t 10:00 --mem=1G -e err.txt -o out.txt galaxy data_100k_arcmin.dat rand_100k_arcmin.dat omega.out
+
