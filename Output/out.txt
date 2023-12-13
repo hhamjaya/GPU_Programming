@@ -1,0 +1,102 @@
+   Found 4 CUDA devices
+      Device Tesla V100-PCIE-16GB                  device 0
+         compute capability            =        7.0
+         totalGlobalMemory             =       16.94 GB
+         l2CacheSize                   =    6291456 B
+         regsPerBlock                  =      65536
+         multiProcessorCount           =         80
+         maxThreadsPerMultiprocessor   =       2048
+         sharedMemPerBlock             =      49152 B
+         warpSize                      =         32
+         clockRate                     =    1380.00 MHz
+         maxThreadsPerBlock            =       1024
+         asyncEngineCount              =          7
+         f to lf performance ratio     =          2
+         maxGridSize                   =   2147483647 x 65535 x 65535
+         maxThreadsDim in thread block =   1024 x 1024 x 64
+         concurrentKernels             =        yes
+         deviceOverlap                 =          1
+            Concurrently copy memory/execute kernel
+      Device Tesla V100-PCIE-16GB                  device 1
+         compute capability            =        7.0
+         totalGlobalMemory             =       16.94 GB
+         l2CacheSize                   =    6291456 B
+         regsPerBlock                  =      65536
+         multiProcessorCount           =         80
+         maxThreadsPerMultiprocessor   =       2048
+         sharedMemPerBlock             =      49152 B
+         warpSize                      =         32
+         clockRate                     =    1380.00 MHz
+         maxThreadsPerBlock            =       1024
+         asyncEngineCount              =          7
+         f to lf performance ratio     =          2
+         maxGridSize                   =   2147483647 x 65535 x 65535
+         maxThreadsDim in thread block =   1024 x 1024 x 64
+         concurrentKernels             =        yes
+         deviceOverlap                 =          1
+            Concurrently copy memory/execute kernel
+      Device Tesla V100-PCIE-16GB                  device 2
+         compute capability            =        7.0
+         totalGlobalMemory             =       16.94 GB
+         l2CacheSize                   =    6291456 B
+         regsPerBlock                  =      65536
+         multiProcessorCount           =         80
+         maxThreadsPerMultiprocessor   =       2048
+         sharedMemPerBlock             =      49152 B
+         warpSize                      =         32
+         clockRate                     =    1380.00 MHz
+         maxThreadsPerBlock            =       1024
+         asyncEngineCount              =          7
+         f to lf performance ratio     =          2
+         maxGridSize                   =   2147483647 x 65535 x 65535
+         maxThreadsDim in thread block =   1024 x 1024 x 64
+         concurrentKernels             =        yes
+         deviceOverlap                 =          1
+            Concurrently copy memory/execute kernel
+      Device Tesla V100-PCIE-16GB                  device 3
+         compute capability            =        7.0
+         totalGlobalMemory             =       16.94 GB
+         l2CacheSize                   =    6291456 B
+         regsPerBlock                  =      65536
+         multiProcessorCount           =         80
+         maxThreadsPerMultiprocessor   =       2048
+         sharedMemPerBlock             =      49152 B
+         warpSize                      =         32
+         clockRate                     =    1380.00 MHz
+         maxThreadsPerBlock            =       1024
+         asyncEngineCount              =          7
+         f to lf performance ratio     =          2
+         maxGridSize                   =   2147483647 x 65535 x 65535
+         maxThreadsDim in thread block =   1024 x 1024 x 64
+         concurrentKernels             =        yes
+         deviceOverlap                 =          1
+            Concurrently copy memory/execute kernel
+   Using CUDA device 0
+
+Number 100000 of real galaxies and first value of ra_real 4646.98
+Number 100000 of simulation galaxies and first value of ra_sim 840.96 
+
+Total bins 720
+Size of block <<586,512>>
+Total blocks 586
+Total threads per block 512
+
+
+ Kernel time 0.4516
+
+ bin start/deg   omega           hist_DD         hist_DR         hist_RR        
+-------------   -----           -------         -------         -------        
+0.0000          2.3656          2351082         396664          1140748        
+0.2500          1.7443          4356132         1183183         2673450        
+0.5000          1.4182          5589088         1945992         4058214        
+0.7500          1.2154          6483452         2673871         5272690        
+1.0000          1.0867          7323382         3384819         6389418        
+1.2500          1.0020          8173722         4079230         7468356        
+1.5000          0.9370          8985564         4759653         8468546        
+1.7500          0.8845          9790170         5439833         9434088        
+2.0000          0.8457          10643434        6118644         10332684       
+2.2500          0.8109          11408266        6763029         11201812       
+
+histogram sum for DD = 10000000000
+histogram sum for DR = 10000000000
+histogram sum for RR = 10000000000
