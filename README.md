@@ -24,3 +24,15 @@ You can test using the template of the project
 ```shell
 srun -p gpu -n 1 -t 10:00 --mem=1G -e err.txt -o out.txt galaxy data_100k_arcmin.dat rand_100k_arcmin.dat omega.out
 ```
+
+## Credit
+
+Your basic design is very clear:  to calculate sines and cosines only once on the CPU, instead of repeatedly recalculating the trigonometric functions in the GPU-kernels. This is **a very good decision** and should result in a speedy  program. **Rather impressive**, your code looks good and performs well! I timed your code on my machine (NVIDIA GeForce RTX 3050 Ti Laptop, and I believe Laptop means some of the streaming multiprocessors are faulty and have been deactivated):
+
+```shell
+Kernel time 0.3388
+```
+
+using "threadsperblock 256".
+
+This is certainly one of the **fastest** times submitted!
